@@ -1,0 +1,97 @@
+#main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+#navlist{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#dropdown ,#harmbarger{
+    width: 50px;
+    height: 50px;
+}
+body{
+    margin: 0;
+}
+#nav{
+    display: none;
+    background-color: blue;
+    width: 150px;
+    height: 100px;
+    line-height: 33px;
+    border-radius: 5px;
+}
+#harmburger-icon{
+    width: 20%;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(11, 0, 0);
+    padding: 0 10px;
+}
+#icon-menu{
+    display: block;
+    justify-content: end;
+}
+#nav:hover{
+    background-color: white;   
+}
+#list-items a:hover{
+    color: blue;
+}
+#list-items:hover{
+    background-color: rgb(196, 192, 192);
+    border-radius: 5px;
+}
+#harmbarger{
+    display: flex;
+    align-content: center;
+    align-items: center;
+   justify-content: end;
+   width: 150px;
+}
+#icon-menu:hover #nav{
+    display: block;
+}
+body{
+    margin: 0;
+    color: #0000ff;
+}
+.main-container{
+    margin:0;
+    height: 60vh;
+    padding: 0 0 0 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    cursor: pointer;
+}
+#list,dd{
+    margin-top: 10px;
+}
+@media (min-width:768px) {
+    h1{
+        text-align: center;
+    }
+    #main{
+        display: grid;
+        place-items: center;
+        font-size: large;
+    }
+    #list,dd{
+        margin-top: 10px;
+    }
+    h2{
+        margin: 0;
+    }
+    .main-container{
+        height: 60vh;
+    }
+}
