@@ -21,6 +21,9 @@ body{
 #nav{
     display: none;
     background-color: blue;
+    display:absolute;
+    right:0;
+    top:20px;
     width: 150px;
     height: 100px;
     line-height: 33px;
